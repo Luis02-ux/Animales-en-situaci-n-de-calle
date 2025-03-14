@@ -1,0 +1,26 @@
+/* Ajustes para el navbar */
+.navbar-brand {
+    flex-grow: 1;
+}
+.navbar-toggler {
+    order: 2;
+}
+
+/* Ajustes para el modal en dispositivos móviles */
+.modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+/* Asegúrate de que el contenido del modal sea accesible */
+.modal-body {
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+/* Si el modal tiene imágenes grandes, ajusta su tamaño */
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
